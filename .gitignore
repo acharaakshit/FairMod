@@ -5,6 +5,7 @@ __pycache__/
 
 # ignore data files
 **/*.csv
+**/*.pkl
 
 # C extensions
 *.so
