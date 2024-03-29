@@ -7,6 +7,9 @@ __pycache__/
 **/*.csv
 **/*.pkl
 
+# ignore images
+**/*.csv
+
 # C extensions
 *.so
 
