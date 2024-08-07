@@ -6,6 +6,10 @@ __pycache__/
 # ignore data files
 **/*.csv
 **/*.pkl
+**/*.txt
+
+# archives
+**/*.png
 
 # ignore images
 **/*.png
