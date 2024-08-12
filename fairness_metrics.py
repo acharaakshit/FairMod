@@ -21,7 +21,7 @@ def demographic_parity(df: pd.DataFrame):
     df_B = df[df['label_id'] == 1]
 
     # compute demographic parity difference
-    parity = abs(len(df_A[df_A['flagged'] == False])/len(df_A) - len(df_B[df_B['flagged'] == False])/len(df_B))
+    parity = abs(len(df_A[df_A['flagged'] == True])/len(df_A) - len(df_B[df_B['flagged'] == True])/len(df_B))
 
     return parity
 
@@ -44,6 +44,6 @@ def conditional_statistical_parity(df: pd.DataFrame, factors, factor:str):
 
 
     # compute conditional statistical parity
-    parity = abs(len(df_A[df_A['flagged'] == False])/len(df_A) - len(df_B[df_B['flagged'] == False])/len(df_B))
+    parity = abs(len(df_A[df_A['flagged'] == True])/len(df_A) - len(df_B[df_B['flagged'] == True])/len(df_B))
 
     return parity
