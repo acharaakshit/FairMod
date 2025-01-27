@@ -55,3 +55,16 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ## 📜 License
 
 Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use our code for your research, please cite our paper:
+
+```
+@article{achara2025watching,
+  title={Watching the AI Watchdogs: A Fairness and Robustness Analysis of AI Safety Moderation Classifiers},
+  author={Achara, Akshit and Chhabra, Anshuman},
+  journal={arXiv preprint arXiv:2501.13302},
+  year={2025}
+}
+```
